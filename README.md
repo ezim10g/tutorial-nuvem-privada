@@ -2,7 +2,7 @@
 
 ![preview](print.png)
 
-> O objetive este projeto é documentar o passo a passo de todo o processo para implementar um sistema de nuvem pessoal usando um Orange Pi Zero.
+> O objetivo este projeto é documentar o passo a passo de todo o processo para implementar um sistema de nuvem pessoal usando um Orange Pi Zero.
 
 
 
