@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eziore Simplificando Nuvem</title>
+</head>
+
+
+
+<body>
+    <div class="titulo">
+        <div class="logo">
+            <img src="./img/logo.png" alt="">
+        </div> 
+        <div class="sub">
+            <p>Criando uma nuvem privada</p>
+            <p1>segura e confiável</p1>
+        </div>   
+    </div>
+    <div class="main">
+        <hr >
+    </div >
+   
+    <div class="main">
+        <div class="box">
+            
+            <p><p1>Introdução</p1><br>
+                Se você trabalha, estuda ou desenvolve aplicações, talvez tenha percebido que uma das dificuldades que prejudicam o conhecimento e também 
+                a evolução dos projetos, é a dificuldade para criar uma infraestrutura de rede. 
+                Seja ela cliente servidor, <b>servidor web, banco de dados</b> ou até mesmo projetos de <b>IoT</b>, onde precisamos enviar dados através da internet e 
+                acessar esses dados de forma remota. Fazer isso de forma alternativa acaba gerando custo excessivo ou as vezes encontramos problemas complexos que
+                 impossibilitam o avanço do aprendizado.   
+            </p>  
+        </div>
+        <div class="box">
+             <img src="./img/Server-amico.png" alt="">
+        </div>
+      
+    </div>
+    <div class="main">
+        <div class="box">
+            <img src="./img/No connection-bro.png" alt="">
+        </div>
+        <div class="box">
+            <p>
+                Pelo fato da internet que usamos em nossas residências ser projetada de uma forma em que toda <b>conexão externa seja bloqueada</b>,
+                 tanto pelo firewall do sistema operacional ou pelo próprio roteador, ainda existe o fato de que nosso <b>IP público</b> sempre muda com o tempo.
+                Outra pedra no caminho é que muitos provedores de internet estão compartilhando o mesmo IP público de vários clientes de uma região usando 
+                uma técnica chamada <b>CGNAT</b>, ficando impossível usar encaminhamento de portas sendo que o cliente não tem acesso ao roteador “público”. 
+                Mesmo usando um serviço de <b>DDNS</b> não conseguimos acessar nosso host de forma externa.
+            </p>
+        </div>
+    </div>
+
+    <div class="main">
+        <hr >
+    </div >
+
+    <div class="main">
+        <div class="box">
+           <p> <p1> Escolhendo um servidor:</p1><br>
+            Há muito tempo tenho vontade de usar essas placas de desenvolvimento chamadas de (<b>single board computer</b>), a mais conhecida entre várias é a famosa <b>Raspberry PI</b>.
+             Para este projeto acabei escolhendo um singelo <b>OrangePi zero LTS</b> por questões de custo benefício.
+            
+           <strong> CPU: Quad Core, RAM: 512MB, Storage: MicroSD 32GB, Ethernet rj45, USB 2.0.</strong> Também possui entrada e saídas digitais e analógicas, permitindo usar este servidor para controlar diretamente dispositivos <b>IoT</b>. Valor estimado 25 Euros.
+            </p>
+        </div>
+        <div class="box">
+           <img src="./img/Zero_LTS.png" alt="">
+        </div>
+    </div>
+
+    <div class="main">
+        <hr >
+    </div >
+
+    <div class="main">
+        <div class="box">
+            <p> 
+                Para não estender muito este guia, vou dividi-o em partes.
+                No próximo vou mostrar como dar os primeiros passos para <b> configurar e instalar o sistema operacional</b>.
+                 Em seguida vou mostrar como configurar um <b>display oled1306 i2c</b> para mostrar as informações do sistema, assim não precisamos usar nenhum tipo de monitor.
+                Quando nosso sistema estiver configurado, vamos poder instalar infinitos tipos de <b>aplicações web</b>. Já deixando um spoiler, podemos usar um sistema de <b>Media Plex </b>que é um equivalente ao Netflix, a diferença é que acessamos nossos filmes pessoais. Também vamos instalar os servidores de <b>HTTP, PHP, NODEJS, MYSQL</b>.
+            </p>        
+        </div>
+        <div class="box">
+            <p>             
+                Vamos instalar também um sistema de <b>nuvem privada</b>, e tentar criar <b>máquinas virtuais</b> dentro desse servidor usando contêiners <b>DOCKER</b> onde vamos fazer o acesso a essa máquina via <b>SSH</b>. Também vamos criar um <b>servidor NAS</b> para acessar nossas pastas e arquivos pessoais através da internet.
+                 Vamos fazer tudo isso <b>de forma segura</b> sem expor nosso IP na internet e sem precisar redirecionar portas no nosso roteador. Tudo isso com proteção <b>contra ataques DDoS</b> e podendo fazer autenticação usando <b>Zero Trust.</b> 
+            </p>        
+        </div>
+    </div>
+    <div class="main">
+        <hr >
+    </div >
+
+    <div class="fim">
+        <div class="box">
+             <p>
+                Veja a quantidade de recursos que vamos aprender ao longo deste projeto.<br><br>
+ 
+                Se você não está familiarizado com alguns termos apresentados neste guia, não se preocupe, nas próximas etapas vamos implementar cada recurso de forma detalhada.
+                <br><br>
+                
+                <b> Se gostou deste projeto, peço que me siga e compartilhe este post para mais pessoas poderem acompanhar. </b>                
+                <br><br> Até breve!
+                <br><br>
+
+                
+                 
+            </p>        
+           
+        </div>
+        <div class="footer">
+            Ezio Vieira - Tec. Desenvolvimento de Sistemas – Senai Jorge Mahfuz
+        </div>
+    </div>
+    
+   
+   
+</body>
+
+
+</html>
