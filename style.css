@@ -150,3 +150,14 @@ hr {
     text-align: center;
     color:#728699;
 }
+
+/*quando a tela for ate 600px (celulares)*/
+@media only screen and (max-width: 600px){
+
+    .main p {
+       
+    
+        font-size: 2vw;
+      
+    }
+}
